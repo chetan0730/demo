@@ -1,0 +1,108 @@
+#OneWay Trip object Property
+E_From=source:=ID
+E_To=destination:=ID
+E_Adult_minus=//div[@class='counter-element adult']//div//div[@class='minus'][contains(text(),'-')]:=xpath
+E_Adult_plus=//div[@class='counter-element adult']//div//div[@class='plus'][contains(text(),'+')]:=xpath
+E_Children_minus=//div[@class='counter-element child']//div//div[@class='minus'][contains(text(),'-')]:=xpath
+E_Children_plus=//div[@class='counter-element child']//div//div[@class='plus'][contains(text(),'+')]:=xpath
+E_Infant_minus=//div[@class='counter-element infant']//div//div[@class='minus'][contains(text(),'-')]:=xpath
+E_Infant_plus=//div[@class='counter-element infant']//div//div[@class='plus'][contains(text(),'+')]:=xpath
+E_ShowMoreOption=//a[@class='show-more closed']:=xpath
+E_PrefferedAirline=prefCarrier:=ID
+E_Class=preferredClass:=ID
+E_Routing=routingType:=ID
+E_YourRecentSearches=//a[@class='showRecentSearch closed']:=xpath
+E_SearchFlight_Btn=search-flight-btn:=ID
+E_Book_Btn=//button[contains(text(),'Selected')]:=xpath
+E_NameTitle=adult1Title:=ID
+E_AdultFName=//input[@id='adult1FirstName']:=xpath
+E_AdultLName=//input[@id='adult1Surname']:=xpath
+E_ShowMoreOptions=//label[@class='typ']:=xpath
+E_SelectAirline=adult1FFNCode:=ID
+E_SelectAirline=adult1FFN:=ID
+E_Mobile_code=ISDCodeTr:=ID
+E_Mobile=contactMobile:=ID
+E_Mobile=contactEmail:=ID
+E_viaCash=//div[@class='voucher-title-active']:=xpath
+E_EnterAmount=cashAmount:=ID
+E_UseBtn=cashValidate:=ID
+E_MealsNotInc=msgInfoChkBox_label:=ID
+E_TermsAndLabels=read_terms_label:=ID
+E_Prooced_Btn=makePayCTA:=ID
+E_MakeOayment_Btn=confirmProceedPayBtn:=ID
+
+
+#RoundTrip Object Property
+E_From=source:=ID
+E_To=destination:=ID
+E_Adult_minus=//div[@class='counter-element adult']//div//div[@class='minus'][contains(text(),'-')]:=xpath
+E_Adult_plus=//div[@class='counter-element adult']//div//div[@class='plus'][contains(text(),'+')]:=xpath
+E_Children_minus=//div[@class='counter-element child']//div//div[@class='minus'][contains(text(),'-')]:=xpath
+E_Children_plus=//div[@class='counter-element child']//div//div[@class='plus'][contains(text(),'+')]:=xpath
+E_Infant_minus=//div[@class='counter-element infant']//div//div[@class='minus'][contains(text(),'-')]:=xpath
+E_Infant_plus=//div[@class='counter-element infant']//div//div[@class='plus'][contains(text(),'+')]:=xpath
+E_ShowMoreOption=//a[@class='show-more closed']:=xpath
+E_PrefferedAirline=prefCarrier:=ID
+E_Class=preferredClass:=ID
+E_Routing=routingType:=ID
+E_YourRecentSearches=//a[@class='showRecentSearch closed']:=xpath
+E_SearchFlight=search-flight-btn:=ID
+E_SelectOnwardFlight=//div[@class='onwardResults']//button[@class='bookCTA u_marB5'][contains(text(),'Selected')]:=xpath
+E_SelectReturnFlight=//div[@class='upperContainer via-processed']//button[@class='bookCTA u_marB5'][contains(text(),'Selected')]:=xpath
+E_Bookticket=//div[@class='bookCTA return']:=xpath
+E_NameTitle=adult1Title:=ID
+E_AdultFName=//input[@id='adult1FirstName']:=xpath
+E_AdultLName=//input[@id='adult1Surname']:=xpath
+E_ShowMoreOptions=//label[@class='typ']:=xpath
+E_SelectAirline=adult1FFNCode:=ID
+E_SelectAirline=adult1FFN:=ID
+E_Mobile_code=ISDCodeTr:=ID
+E_Mobile=contactMobile:=ID
+E_Mobile=contactEmail:=ID
+E_viaCash=//div[@class='voucher-title-active']:=xpath
+E_EnterAmount=cashAmount:=ID
+E_UseBtn=cashValidate:=ID
+E_MealsNotInc=msgInfoChkBox_label:=ID
+E_TermsAndLabels=read_terms_label:=ID
+E_Prooced_Btn=makePayCTA:=ID
+E_MakeOayment_Btn=confirmProceedPayBtn:=ID
+
+
+#MultiCity Object Property
+E_Flight1=multi-city-label-0:=ID 
+E_Flight2=multi-city-label-1:=ID
+E_Addflight=//label[@id='multi-city-label-2']//div[@class='close']:=xpath
+E_From=source-1:=ID
+E_To=destination-1:=ID
+E_Adult_minus=//div[@class='counter-element adult']//div//div[@class='minus'][contains(text(),'-')]:=xpath
+E_Adult_plus=//div[@class='counter-element adult']//div//div[@class='plus'][contains(text(),'+')]:=xpath
+E_Children_minus=//div[@class='counter-element child']//div//div[@class='minus'][contains(text(),'-')]:=xpath
+E_Children_plus=//div[@class='counter-element child']//div//div[@class='plus'][contains(text(),'+')]:=xpath
+E_Infant_minus=//div[@class='counter-element infant']//div//div[@class='minus'][contains(text(),'-')]:=xpath
+E_Infant_plus=//div[@class='counter-element infant']//div//div[@class='plus'][contains(text(),'+')]:=xpath
+E_ShowMoreOption=//a[@class='show-more closed']:=xpath
+E_PrefferedAirline=prefCarrier:=ID
+E_Class=preferredClass:=ID
+E_Routing=routingType:=ID
+E_YourRecentSearches=//a[@class='showRecentSearch closed']:=xpath
+E_SearchFlight=search-flight-btn:=ID
+E_SelectOnwardFlight=//div[@class='onwardResults']//button[@class='bookCTA u_marB5'][contains(text(),'Selected')]:=xpath
+E_SelectReturnFlight=//div[@class='upperContainer via-processed']//button[@class='bookCTA u_marB5'][contains(text(),'Selected')]:=xpath
+E_Bookticket=//div[@class='bookCTA return']:=xpath
+E_NameTitle=adult1Title:=ID
+E_AdultFName=//input[@id='adult1FirstName']:=xpath
+E_AdultLName=//input[@id='adult1Surname']:=xpath
+E_ShowMoreOptions=//label[@class='typ']:=xpath
+E_SelectAirline=adult1FFNCode:=ID
+E_SelectAirline=adult1FFN:=ID
+E_Mobile_code=ISDCodeTr:=ID
+E_Mobile=contactMobile:=ID
+E_Mobile=contactEmail:=ID
+E_viaCash=//div[@class='voucher-title-active']:=xpath
+E_EnterAmount=cashAmount:=ID
+E_UseBtn=cashValidate:=ID
+E_MealsNotInc=msgInfoChkBox_label:=ID
+E_TermsAndLabels=read_terms_label:=ID
+E_Prooced_Btn=makePayCTA:=ID
+E_MakeOayment_Btn=confirmProceedPayBtn:=ID
+
